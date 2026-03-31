@@ -66,16 +66,22 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+
+
+
+	<!-- 🔥 LOCATION PERMISSION -->
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>التطبيق يحتاج الموقع لتسجيل الحضور والانصراف</string>
+
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>التطبيق يحتاج الموقع لتسجيل الحضور والانصراف</string>
+
+	<!-- 🔥 HTTP ALLOW -->
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+
 </dict>
-
-
-<key>NSLocationWhenInUseUsageDescription</key>
-<string>نحتاج الموقع لتسجيل الحضور</string>
-
-<key>NSAppTransportSecurity</key>
-<dict>
-  <key>NSAllowsArbitraryLoads</key>
-  <true/>
-</dict>
-
 </plist>
